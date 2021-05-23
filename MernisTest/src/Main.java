@@ -16,7 +16,7 @@ public class Main {
 			BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 			
 	        Date bDate = new Date(1989,9,12);
-	        Customer customer = new Customer(1,"Semih","Alkan", bDate ,"12345678901");
+	        Customer customer = new Customer(1,"Semih","Alkan", bDate ,"1234567890");
 	        
 	        customerManager.save(customer);
 	    
